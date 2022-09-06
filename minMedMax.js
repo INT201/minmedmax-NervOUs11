@@ -31,7 +31,8 @@ function minMedMax(n1, n2, n3) {
   result.mid = mid
   result.max = max
 
-  return console.log(result) 
+  console.log(result) 
+  return result
 }
 
 module.exports = minMedMax
